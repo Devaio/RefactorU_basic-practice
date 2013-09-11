@@ -23,17 +23,22 @@ h2 {
 h6 {
 	text-transform: capitalize;
 }
+
 .LargeTopic {
 	font-family: Georgia;
 }
+
 table {
 	text-align: center;
 	text-indent: 0px;
+	font-family: sans-serif;
 }
+
 address {
 	text-indent: 0px
 }
+
 iframe {
 	padding: 20px;
-	padding-left: 30px
+	margin-left: 30px
 }
