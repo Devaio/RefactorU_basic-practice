@@ -1,3 +1,9 @@
-img{
+.galleryimg{
 	vertical-align: text-top;
+	border-style: groove;
+	border-color: #2A87B5;
+	border-radius: 20px;
+	margin-bottom:12px;
+	height:200px;
+	width:200px;
 }

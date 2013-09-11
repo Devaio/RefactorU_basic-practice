@@ -9,6 +9,7 @@ nav {
 	font-family: sans-serif;
 	font-size: 24px;
 	font-weight:bold;
+	line-height:25px;
 }
 
 h1 {
@@ -25,13 +26,20 @@ h6 {
 }
 
 .LargeTopic {
+	height: 500px;
+	width: 600px;
 	font-family: Georgia;
+	background-image: url(BObackground.jpg) ;
+	opacity: .8;
 }
 
 table {
 	text-align: center;
 	text-indent: 0px;
 	font-family: sans-serif;
+	border-style: outset inset;
+	border-color: #2A87B5;
+	border-width: 6px;
 }
 
 address {
