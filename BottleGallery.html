@@ -8,7 +8,7 @@
 	<title>A Gallery of Bottle Openers</title>
 </head>
 
-<body style="background-color:#CCD6EB">
+<body>
 
 <header>
 	<center>
@@ -17,51 +17,66 @@
 </header>
 
 <nav>
-	<ol>
-		<li><a href="BottleHome.html">Home</a></li>
-		<li><a href="BottleGallery.html">Gallery</a></li>
-		<li><a href="BottleHistory.html">History</a></li>
-	</ol>
+	<ul>
+		<li class="navbar"><a href="BottleHome.html">Home</a></li>
+		<li class="navbar"><a href="BottleGallery.html">Gallery</a></li>
+		<li class="navbar"><a href="BottleHistory.html">History</a></li>
+	</ul>
 </nav>
 <hr>
-<ul>
-		<li><img class="galleryimg" src="http://upload.wikimedia.org/wikipedia/en/5/5f/Opened_Waiters.JPG" alt="A corkscrew/bottle opener combo">
-		<cite> A corkscrew/bottle opener combo </cite>from <a href="http://en.wikipedia.org"> Wikipedia</a></li>
 
-		<li><img class="galleryimg" src="http://www.bottleopener.com/images/T/Bottle%20Cap%20Mount%20Opener.jpg" alt="A wall mounted bottle opener">
-		<cite> Wall mounted bottle opener </cite>from <a href="http://bottleopener.com"> Bottleopener.com</a></li>
+	<div class="backgroundimgcont">
+		<div class="backgroundimg">
+		</div>
+	</div>
 
-		<li><img class="galleryimg" src="http://upload.wikimedia.org/wikipedia/commons/1/15/2006_pocket_knife_bottle_opener.jpg" alt="Pocket knife with bottle opener">
-		<cite> Pocket knife bottle opener </cite>from <a href="http://enwikipedia.org"> Wikipedia</a></li>
+	<div class="galleryelement">
+		<div class="galleryimg">
+		<img src="http://upload.wikimedia.org/wikipedia/en/5/5f/Opened_Waiters.JPG" alt="A corkscrew/bottle opener combo"></div>
+	
+		<cite> A corkscrew/bottle opener combo </cite>from <a href="http://en.wikipedia.org"> Wikipedia</a>
+	</div>
 
-		<li><img class="galleryimg" src="http://upload.wikimedia.org/wikipedia/commons/7/7e/Churchkey_patent_1996550.jpg" alt="Churchkey style bottle opener">
-		<cite> Churchkey style bottle opener </cite>from <a href="http://enwikipedia.org"> Wikipedia</a></li>
+	<div class="galleryelement">
+		<div class="galleryimg">
+		<img src="http://www.bottleopener.com/images/T/Bottle%20Cap%20Mount%20Opener.jpg" alt="A wall mounted bottle opener"></div>
+		<cite> Wall mounted bottle opener </cite>from <a href="http://bottleopener.com"> Bottleopener.com</a>
+	</div>
 
-</ul>
+	<div class="galleryelement">
+		<div class="galleryimg">
+		<img src="http://upload.wikimedia.org/wikipedia/commons/1/15/2006_pocket_knife_bottle_opener.jpg" alt="Pocket knife with bottle opener"></div>
+		<cite> Pocket knife bottle opener </cite>from <a href="http://enwikipedia.org"> Wikipedia</a>
+		</div>
 
-<br>
+	<div class="galleryelement">
+		<div class="galleryimg">
+		<img src="http://upload.wikimedia.org/wikipedia/commons/7/7e/Churchkey_patent_1996550.jpg" alt="Churchkey style bottle opener"></div>
+		<cite> Churchkey style bottle opener </cite>from <a href="http://enwikipedia.org"> Wikipedia</a>
+	</div>
+
+
+<br><br>
 
 <aside> 
-	<p> Which bottle opener is your favorite? </p>
-	<form>
-		<label for="corkscrew">Corkscrew Combo</label>
-		<input type="radio" name="favbo" id="corkscrew">
+	<p> Which bottle opener is your favorite?</p>
+	<form class="survey">
+		<label for="corkscrew">Corkscrew</label>
+		<input type="radio" name="favbo" id="corkscrew"><br>
 		<label for="wallmount">Wallmounted</label>
-		<input type="radio" name="favbo" id="wallmount">
+		<input type="radio" name="favbo" id="wallmount"><br>
 		<label for="pocket">Pocket Knife</label>
-		<input type="radio" name="favbo" id="pocket">
+		<input type="radio" name="favbo" id="pocket"><br>
 		<label for="churchkey">Churchkey</label>
-		<input type="radio" name="favbo" id="churchkey">
+		<input type="radio" name="favbo" id="churchkey"><br>
 			<br>
-	<textarea rows="2" cols="40">
-	Type why you made your choice here!
-	</textarea>
+	<textarea rows="2" cols="40">Type why you made your choice here!</textarea>
 
 	<br>
 
 		<fieldset>
 			<legend>Tell us about yourself!</legend>
-			Name: <input type="text"><br>
+			Name:<input type="text"><br>
 			Email:<input type="text"><br>
 		</fieldset>
 		Gender

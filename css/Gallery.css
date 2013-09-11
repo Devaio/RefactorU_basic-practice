@@ -1,9 +1,49 @@
-.galleryimg{
-	vertical-align: text-top;
-	border-style: groove;
-	border-color: #2A87B5;
-	border-radius: 20px;
-	margin-bottom:12px;
+.galleryelement{
+	display: inline-block;
+	margin:12px;
+	height: 300px;
+	width: 270px;
+}
+	
+.galleryimg {
+	transition: -webkit-transform 1s
+}
+
+img{
+	margin:20px;
 	height:200px;
 	width:200px;
+	float:left;
+	border-radius: 70px;
+	box-shadow: 5px 5px 10px 0 #000000;
+	border-style: groove;
+	border-color: cadetblue;
+	border-radius: 71px;
+}
+cite {
+	margin: 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+aside{
+	text-align: center;
+}
+
+button {
+	background-color: cadetblue;
+	box-shadow: 0px 5px 10px 0 #000000;
+}
+
+textarea {
+	background-color:white;
+}
+select{
+	background-color:white;
+}
+input {
+	background-color:white;
+}
+.galleryimg:hover{
+	-webkit-transform: rotate3d(5, 5, 5, 360deg);
 }

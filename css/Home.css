@@ -1,3 +1,7 @@
+*{
+	background-color: burlywood;
+}
+
 body {
 	white-space: normal;
 	text-indent: 50px;
@@ -10,6 +14,13 @@ nav {
 	font-size: 24px;
 	font-weight:bold;
 	line-height:25px;
+}
+
+.navbar{
+	display:inline-block;
+	padding:20px;
+	width:200px;
+	padding-left: 180px
 }
 
 h1 {
@@ -26,20 +37,38 @@ h6 {
 }
 
 .LargeTopic {
-	height: 500px;
+	height: 300px;
 	width: 600px;
 	font-family: Georgia;
-	background-image: url(BObackground.jpg) ;
 	opacity: .8;
+	box-shadow: 10px 10px 10px black;
+	display: inline-block;
 }
 
 table {
+	position: static;
+	float: right;
 	text-align: center;
 	text-indent: 0px;
 	font-family: sans-serif;
 	border-style: outset inset;
 	border-color: #2A87B5;
 	border-width: 6px;
+	border-radius: 15px;
+	border-collapse: inherit;
+	box-shadow: -10px 10px 8px #888888;
+}
+
+th, td {
+	border-style: outset inset;
+	border-radius: 10px;
+	height:67px;
+	width:67px;
+}
+
+caption {
+	font-weight: bold;
+	font-variant: small-caps;
 }
 
 address {
@@ -47,6 +76,62 @@ address {
 }
 
 iframe {
-	padding: 20px;
-	margin-left: 30px
+	margin-left: 30px;
+	height: 315px;
+	width: 420px;
+	border-style:groove;
+	border-width: 8px;
+	border-color: cadetblue;
+}
+
+.funfact{
+	text-align: center;
+	font-family: sans-serif;
+	text-shadow: 2px 2px 2px white;
+}
+
+.tablegrey{
+	background-color:grey;
+	border-radius: 10px;
+}
+
+ins{
+	font-family: sans-serif;
+}
+
+.backgroundimg {
+	position:absolute;
+	background-image: url(BObackground.png);
+	height:500px;
+	width:700px;
+}
+.backgroundimgcont {
+	float:right;
+	height:500px;
+	width:700px;
+	transition: -webkit-transform 2s;
+}
+
+.backgroundimgcont:hover {
+	-webkit-transform: rotateY(180deg)
+}
+
+q{
+	font-family: courier;
+}
+
+dt{
+	font-family:sans-serif;
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+.historytop{
+	letter-spacing: 5px;
+	font-family:sans-serif;
+	text-shadow: 2px 2px 5px white;
+}
+
+.historytext{
+
 }
